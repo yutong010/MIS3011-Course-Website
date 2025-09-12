@@ -128,29 +128,16 @@ body {
     transform: scale(1.05);
 }
 
-/* Enhanced Video container */
+/* Video container */
 .video-container {
     position: relative;
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto 2rem auto;
-    border-radius: 16px;
+    border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
-    background: #000;
 }
 
 .video-container video {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 16px;
-    background: #000;
-}
-
-.video-container video:focus {
-    outline: 2px solid #3b82f6;
-    outline-offset: 2px;
+    border-radius: 12px;
 }
 
 /* Chart container */
@@ -310,12 +297,12 @@ footer {
     margin-top: 4rem;
 }
 
-/* Media section styling */
-#media .card img {
+/* Gallery image styling */
+.card img {
     transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-#media .card img:hover {
+.card img:hover {
     transform: scale(1.02);
     filter: brightness(1.1);
 }
@@ -363,26 +350,6 @@ html {
     .header-section h1 {
         font-size: 2rem;
     }
-    
-    .video-container {
-        max-width: 100%;
-        margin: 0 0 1.5rem 0;
-    }
-    
-    .video-container video {
-        border-radius: 12px;
-    }
-}
-
-/* Extra responsive considerations for video */
-@media (max-width: 480px) {
-    .video-container {
-        border-radius: 8px;
-    }
-    
-    .video-container video {
-        border-radius: 8px;
-    }
 }
 
 /* Dark mode support for users who prefer it */
@@ -409,11 +376,5 @@ html {
     .card {
         box-shadow: none;
         border: 1px solid #e2e8f0;
-    }
-    
-    .header-section {
-        background: #667eea !important;
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
     }
 }
