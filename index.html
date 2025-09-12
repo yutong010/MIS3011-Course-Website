@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en" data-bs-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MIS3011 - Advanced AI for Business: From Theories to Applications</title>
     
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.replit.com/agent/bootstrap-agent-dark-theme.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom CSS -->
@@ -14,10 +14,10 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <span class="text-info">MIS3011</span>
+                <span class="text-primary fw-bold">MIS3011</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -34,13 +34,13 @@
                         <a class="nav-link" href="#learning-outcomes">Learning Outcomes</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#schedule">Weekly Schedule</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#assessment">Assessment</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#resources">Resources</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#faq">FAQ</a>
@@ -54,12 +54,12 @@
     </nav>
 
     <!-- Header -->
-    <header class="py-5 header-section text-white">
+    <header class="py-5 header-section bg-light text-white">
         <div class="container px-4 px-lg-5 my-5">
             <div class="row gx-4 gx-lg-5 align-items-center">
                 <div class="col-md-7">
                     <h1 class="display-4 fw-bolder">Advanced AI for Business: From Theories to Applications</h1>
-                    <p class="lead fw-normal text-light-emphasis mb-0">MIS3011 | CUHK(SZ)</p>
+                    <p class="lead fw-normal text-white-50 mb-0">MIS3011 | CUHK(SZ)</p>
                 </div>
                 <div class="col-md-5 d-flex justify-content-center">
                     <!-- Course image -->
@@ -208,22 +208,34 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <h4 class="mt-4 mb-3">Core Learning Objectives</h4>
-                    <div class="row">
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="mb-5">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h2 class="card-title mb-4 text-primary">AI in Action Gallery</h2>
+                    <p class="card-text text-muted mb-4">Explore the visual world of AI applications and technologies that power modern business solutions.</p>
+                    <div class="row g-4">
                         <div class="col-md-6">
-                            <ul class="list-group">
-                                <li class="list-group-item"><i class="fas fa-check-circle text-success me-2"></i>Build a comprehensive understanding of AI, from machine learning to deep learning to GenAI</li>
-                                <li class="list-group-item"><i class="fas fa-check-circle text-success me-2"></i>Learn to identify business challenges and design AI-powered solutions</li>
-                                <li class="list-group-item"><i class="fas fa-check-circle text-success me-2"></i>Gain practical, hands-on project experience by building AI applications</li>
-                            </ul>
+                            <div class="card h-100 border-0 shadow-sm">
+                                <img src="attached_assets/scene1_1757683217681.png" class="card-img-top rounded" alt="AI Development Environment" style="height: 300px; object-fit: cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title text-primary">AI Development Environment</h5>
+                                    <p class="card-text text-muted">Modern AI development workspace showcasing data visualization, chat interfaces, and analytics dashboards that students will learn to build and utilize.</p>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-6">
-                            <ul class="list-group">
-                                <li class="list-group-item"><i class="fas fa-check-circle text-success me-2"></i>Discover, test, and leverage state-of-the-art AI models and platforms used in the industry</li>
-                                <li class="list-group-item"><i class="fas fa-check-circle text-success me-2"></i>Develop effective communication and collaboration skills for leading AI-powered projects</li>
-                                <li class="list-group-item"><i class="fas fa-check-circle text-success me-2"></i>Build a strong foundation for advanced studies or professional roles in BA, DS, and AI</li>
-                            </ul>
+                            <div class="card h-100 border-0 shadow-sm">
+                                <img src="attached_assets/tongyi_1757683233627.png" class="card-img-top rounded" alt="Collaborative AI Team" style="height: 300px; object-fit: cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title text-primary">Collaborative AI Innovation</h5>
+                                    <p class="card-text text-muted">Team-based AI project development environment where students collaborate on real-world business applications using cutting-edge AI technologies.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -237,7 +249,7 @@
                     <h2 class="card-title mb-4">Course Introduction</h2>
                     <div class="video-container rounded">
                         <video controls class="img-fluid rounded shadow">
-                            <source src="video.mp4" type="video/mp4">
+                            <source src="attached_assets/keling_1757683208803.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                     </div>
@@ -440,149 +452,42 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <h4 class="mt-4 mb-3">Grade Descriptors</h4>
-                    <div class="accordion" id="gradeAccordion">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingA">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseA" aria-expanded="false" aria-controls="collapseA">
-                                    A - Excellent performance in all learning outcomes
-                                </button>
-                            </h2>
-                            <div id="collapseA" class="accordion-collapse collapse" aria-labelledby="headingA" data-bs-parent="#gradeAccordion">
-                                <div class="accordion-body">
-                                    <ul>
-                                        <li>Demonstrates a solid understanding of AI concepts and its practical implementation in business applications</li>
-                                        <li>Exhibits strong analytical skills in using AI algorithms and tools to solve business problems</li>
-                                        <li>Actively participates in class discussions and exercises</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingB">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseB" aria-expanded="false" aria-controls="collapseB">
-                                    B+, B, B- - Substantial performance in all learning outcomes
-                                </button>
-                            </h2>
-                            <div id="collapseB" class="accordion-collapse collapse" aria-labelledby="headingB" data-bs-parent="#gradeAccordion">
-                                <div class="accordion-body">
-                                    <ul>
-                                        <li>Demonstrates a good knowledge of AI concepts and the ability to apply AI skills in business scenarios</li>
-                                        <li>Regular constructive participation in class discussions and exercises</li>
-                                        <li>Effective real-world project execution with slight need for improvement</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingC">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseC" aria-expanded="false" aria-controls="collapseC">
-                                    C+, C, C- - Satisfactory performance on the majority of learning outcomes
-                                </button>
-                            </h2>
-                            <div id="collapseC" class="accordion-collapse collapse" aria-labelledby="headingC" data-bs-parent="#gradeAccordion">
-                                <div class="accordion-body">
-                                    <ul>
-                                        <li>Shows some understanding of AI concepts and their implications in business</li>
-                                        <li>Partaking in class activities and discussions but may require additional guidance or improvement</li>
-                                        <li>Executed a functional real-world project but exhibits area(s) in need of improvement</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingD">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseD" aria-expanded="false" aria-controls="collapseD">
-                                    D+, D - Barely satisfactory performance
-                                </button>
-                            </h2>
-                            <div id="collapseD" class="accordion-collapse collapse" aria-labelledby="headingD" data-bs-parent="#gradeAccordion">
-                                <div class="accordion-body">
-                                    <ul>
-                                        <li>Demonstrates basic comprehension of AI tools and their usage in business scenarios</li>
-                                        <li>Shows limited or passive participation in class activities and discussions</li>
-                                        <li>Project execution meets minimum requirements but lacks substantial application or understanding of AI in business scenarios</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingF">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseF" aria-expanded="false" aria-controls="collapseF">
-                                    F - Unsatisfactory performance
-                                </button>
-                            </h2>
-                            <div id="collapseF" class="accordion-collapse collapse" aria-labelledby="headingF" data-bs-parent="#gradeAccordion">
-                                <div class="accordion-body">
-                                    <ul>
-                                        <li>Fails to demonstrate a basic understanding and application of AI concepts in the given business context</li>
-                                        <li>Little to no participation in class discussions and activities</li>
-                                        <li>Failure to deliver or unsatisfactory execution of the real-world project</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Resources Section -->
-        <section id="resources" class="mb-5">
-            <div class="card">
-                <div class="card-body">
-                    <h2 class="card-title mb-4">Reading Resources</h2>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h5><i class="fas fa-book me-2"></i>Recommended Textbooks:</h5>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item d-flex">
-                                    <i class="fas fa-bookmark me-3 text-info"></i>
-                                    <span>Krohn, J., Beyleveld, G., & Bassens, A. (2019). Deep Learning Illustrated. Addison-Wesley Professional.</span>
-                                </li>
-                                <li class="list-group-item d-flex">
-                                    <i class="fas fa-bookmark me-3 text-info"></i>
-                                    <span>Russell, S. & Norvig, P. (2021). Artificial Intelligence: A Modern Approach (4th edition). Pearson Education, Inc.</span>
-                                </li>
-                                <li class="list-group-item d-flex">
-                                    <i class="fas fa-bookmark me-3 text-info"></i>
-                                    <span>Andrew Burgess (2018) The Executive Guide to Artificial Intelligence: How to identify and implement applications for AI in your organization. Springer.</span>
-                                </li>
-                                <li class="list-group-item d-flex">
-                                    <i class="fas fa-bookmark me-3 text-info"></i>
-                                    <span>Davenport, T. H. (2018). The AI advantage: How to put the artificial intelligence revolution to work. MIT Press.</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <!-- FAQ Section -->
         <section id="faq" class="mb-5">
-            <div class="card">
+            <div class="card shadow-sm">
                 <div class="card-body">
-                    <h2 class="card-title mb-4">Frequently Asked Questions</h2>
+                    <h2 class="card-title mb-4 text-primary">常见问题 | Frequently Asked Questions</h2>
                     <div class="accordion" id="faqAccordion">
                         
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFAQ1">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ1" aria-expanded="false" aria-controls="collapseFAQ1">
-                                    What's the difference between MIS3011 and MIS3012?
+                                    <strong>Q1:</strong> MIS3011 和 MIS3012，到底有啥不一样？ | What's the difference between MIS3011 and MIS3012?
                                 </button>
                             </h2>
                             <div id="collapseFAQ1" class="accordion-collapse collapse" aria-labelledby="headingFAQ1" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p><strong>MIS3011 (Broad Focus): Become an "AI Generalist"</strong> 👨‍⚕️<br>
-                                    This course offers a systematic overview of classic AI technologies from the last decade, including neural networks, deep learning, and computer vision. Approximately 25-30% of the course is dedicated to Generative AI. It is ideal for students who want a comprehensive understanding of modern AI.</p>
-                                    <p><strong>MIS3012 (Deep Focus): Become an "AI Specialist"</strong><br>
-                                    This course concentrates on the latest Generative AI technologies, such as Large Language Models (LLM) and AI Agent application development. It is designed for students who wish to dive deep into Generative AI and build hands-on projects.</p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h6 class="text-primary">中文回答:</h6>
+                                            <p><strong>MIS3011 (广度优先): 成为AI"全科医生"</strong> 👨‍⚕️<br>
+                                            这门课会带你快速浏览过去十几年经典的AI技术，从神经网络、深度学习到大模型、计算机视觉等，让你对整个AI技术版图有个系统性了解。生成式AI (GenAI) 内容约占 25-30%。适合想全面了解现代AI技术，拓宽知识面的同学。</p>
+                                            <p><strong>MIS3012 (深度优先): 成为AI"专科医生"</strong><br>
+                                            这门课火力全开，聚焦于近两年最火的生成式AI技术，比如大语言模型 (LLM) 和 AI Agent 的应用开发。适合想在GenAI方向上深耕，动手搞点酷东西的同学。</p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h6 class="text-success">English Answer:</h6>
+                                            <p><strong>MIS3011 (Broad Focus): Become an "AI Generalist"</strong><br>
+                                            This course offers a systematic overview of classic AI technologies from the last decade, including neural networks, deep learning, and computer vision. Approximately 25-30% of the course is dedicated to Generative AI. It is ideal for students who want a comprehensive understanding of modern AI.</p>
+                                            <p><strong>MIS3012 (Deep Focus): Become an "AI Specialist"</strong><br>
+                                            This course concentrates on the latest Generative AI technologies, such as Large Language Models (LLM) and AI Agent application development. It is designed for students who wish to dive deep into Generative AI and build hands-on projects.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -590,18 +495,21 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFAQ2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ2" aria-expanded="false" aria-controls="collapseFAQ2">
-                                    Can I keep up with MIS3011 if I have no programming background?
+                                    <strong>Q2:</strong> 哪门课更"水"一点？或者说技术难度更低？ | Which course is easier or less technical?
                                 </button>
                             </h2>
                             <div id="collapseFAQ2" class="accordion-collapse collapse" aria-labelledby="headingFAQ2" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p>Yes, as long as you are willing to invest the time and use AI as a programming tutor! Here's what you need to know:</p>
-                                    <ul>
-                                        <li><strong>Python background is helpful</strong> but not required</li>
-                                        <li>Coding assignments are extensions of in-class examples, focusing on understanding logic rather than writing complex code from scratch</li>
-                                        <li>For the group project, the emphasis is on the <strong>business value and creativity</strong> of your AI application, not on coding complexity</li>
-                                        <li>Your product manager (PM) thinking is more important than advanced programming skills</li>
-                                    </ul>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h6 class="text-primary">中文回答:</h6>
+                                            <p>哈哈，问到点子上了！首先，最入门的是MIS2011。至于这两门课，难度不相上下，只是考察的重点和技术能力不同而已。两门课都有硬核的实践环节，MIS3011需要你动手用Python和Dify做实验。</p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h6 class="text-success">English Answer:</h6>
+                                            <p>The two courses are comparable in difficulty; they just focus on different skills. Both have significant hands-on components. For instance, MIS3011 requires you to complete practical assignments using Python and Dify.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -609,18 +517,32 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFAQ3">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ3" aria-expanded="false" aria-controls="collapseFAQ3">
-                                    What is the course workload and theory-to-practice ratio?
+                                    <strong>Q3:</strong> 我是编程小白，能跟上MIS3011吗？ | Can I keep up with MIS3011 if I have no programming background?
                                 </button>
                             </h2>
                             <div id="collapseFAQ3" class="accordion-collapse collapse" aria-labelledby="headingFAQ3" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p>The course maintains a <strong>50/50 balance between theory and practice</strong>, with a moderate overall workload:</p>
-                                    <ul>
-                                        <li><strong>Theory</strong> is assessed through a final exam</li>
-                                        <li><strong>Practical skills</strong> are evaluated via programming assignments and a group project</li>
-                                        <li>You will build a simple neural network with Python and develop a GenAI application using platforms like Dify</li>
-                                        <li>Every week features TWO sessions that blend lectures with hands-on coding or low-code development labs</li>
-                                    </ul>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h6 class="text-primary">中文回答:</h6>
+                                            <p>完全有可能！但前提是你愿意投入时间，并且善用AI当你的编程导师，就没问题。</p>
+                                            <ul>
+                                                <li><strong>有Python基础？</strong> 那会轻松一些。</li>
+                                                <li><strong>没基础？</strong> 别担心！作业里的编程主要是课堂案例的延伸，目的是让你看懂代码逻辑，而不是从零"造轮子"。</li>
+                                                <li><strong>小组项目呢？</strong> 我们更看重你项目的商业价值和AI应用创意，而不是代码写得多复杂。你的产品经理 (PM) 思维在这里更重要！</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h6 class="text-success">English Answer:</h6>
+                                            <p>Yes, as long as you are willing to invest the time and use AI as a programming tutor! Here's what you need to know:</p>
+                                            <ul>
+                                                <li><strong>Python background is helpful</strong> but not required</li>
+                                                <li>Coding assignments are extensions of in-class examples, focusing on understanding logic rather than writing complex code from scratch</li>
+                                                <li>For the group project, the emphasis is on the <strong>business value and creativity</strong> of your AI application, not on coding complexity</li>
+                                                <li>Your product manager (PM) thinking is more important than advanced programming skills</li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -628,18 +550,31 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFAQ4">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ4" aria-expanded="false" aria-controls="collapseFAQ4">
-                                    How many exams are there and when are they scheduled?
+                                    <strong>Q4:</strong> 这门课的workload大吗？理论和动手比例如何？ | What is the course workload and theory-to-practice ratio?
                                 </button>
                             </h2>
                             <div id="collapseFAQ4" class="accordion-collapse collapse" aria-labelledby="headingFAQ4" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p>There is <strong>one final exam</strong>, which is scheduled to take place during the last week of classes (December 9-11, 2025). The exam is:</p>
-                                    <ul>
-                                        <li>Closed-book format</li>
-                                        <li>Paper-based</li>
-                                        <li>Covers all materials from readings, projects, assignments, and class discussions</li>
-                                        <li>Worth 40% of your total grade</li>
-                                    </ul>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h6 class="text-primary">中文回答:</h6>
+                                            <p>课程设计是理论与实践五五开，整体workload中等，不会让你"头秃"。</p>
+                                            <ul>
+                                                <li><strong>理论知识：</strong>通过期末考试来考察你对核心概念的理解。</li>
+                                                <li><strong>动手能力：</strong>通过编程作业和小组项目来体现。你会用Python搭个简单的神经网络，也会用Dify这样的平台开发一个GenAI应用。</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h6 class="text-success">English Answer:</h6>
+                                            <p>The course maintains a <strong>50/50 balance between theory and practice</strong>, with a moderate overall workload:</p>
+                                            <ul>
+                                                <li><strong>Theory</strong> is assessed through a final exam</li>
+                                                <li><strong>Practical skills</strong> are evaluated via programming assignments and a group project</li>
+                                                <li>You will build a simple neural network with Python and develop a GenAI application using platforms like Dify</li>
+                                                <li>Every week features TWO sessions that blend lectures with hands-on coding or low-code development labs</li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -647,26 +582,24 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFAQ5">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ5" aria-expanded="false" aria-controls="collapseFAQ5">
-                                    What is the policy for late assignment submissions?
+                                    <strong>Q5:</strong> MIS3011有几次考试？在什么时候？ | How many exams are there and when are they scheduled?
                                 </button>
                             </h2>
                             <div id="collapseFAQ5" class="accordion-collapse collapse" aria-labelledby="headingFAQ5" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p>We have a "human-friendly" deadline policy:</p>
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <h6><strong>Individual Assignments:</strong></h6>
-                                            <ul>
-                                                <li>You get ONE "48-hour grace period" for the entire semester</li>
-                                                <li>Use it on any assignment without penalty</li>
-                                                <li>After using your grace period, late submissions receive a 10% deduction per day</li>
-                                            </ul>
+                                            <h6 class="text-primary">中文回答:</h6>
+                                            <p>1次期末考试，预计在本学期最后一个教学周 (比如12月9日-14日那一周) 进行。</p>
                                         </div>
                                         <div class="col-md-6">
-                                            <h6><strong>Group Assignments:</strong></h6>
+                                            <h6 class="text-success">English Answer:</h6>
+                                            <p>There is <strong>one final exam</strong>, which is scheduled to take place during the last week of classes (December 9-11, 2025). The exam is:</p>
                                             <ul>
-                                                <li>No grace period due to team coordination requirements</li>
-                                                <li>Late submissions receive a 10% deduction per day</li>
+                                                <li>Closed-book format</li>
+                                                <li>Paper-based</li>
+                                                <li>Covers all materials from readings, projects, assignments, and class discussions</li>
+                                                <li>Worth 40% of your total grade</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -677,13 +610,22 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFAQ6">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ6" aria-expanded="false" aria-controls="collapseFAQ6">
-                                    Is attendance mandatory?
+                                    <strong>Q6:</strong> 课程会点名吗？ | Is attendance mandatory?
                                 </button>
                             </h2>
                             <div id="collapseFAQ6" class="accordion-collapse collapse" aria-labelledby="headingFAQ6" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p>There will be <strong>random attendance checks</strong>, which account for 5% of the total grade. The TA will randomly sample attendance about 10 times throughout the semester.</p>
-                                    <p>Occasional absences are completely fine, but please provide advance notice if you know you'll miss class!</p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h6 class="text-primary">中文回答:</h6>
+                                            <p>会有不定时签到，占总成绩的5%。偶尔有事来不了完全OK，记得提前打声招呼！</p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h6 class="text-success">English Answer:</h6>
+                                            <p>There will be <strong>random attendance checks</strong>, which account for 5% of the total grade. The TA will randomly sample attendance about 10 times throughout the semester.</p>
+                                            <p>Occasional absences are completely fine, but please provide advance notice if you know you'll miss class!</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -691,19 +633,152 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFAQ7">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ7" aria-expanded="false" aria-controls="collapseFAQ7">
-                                    What will I gain from this course?
+                                    <strong>Q7:</strong> 参与分怎么拿？ | How is the participation grade calculated?
                                 </button>
                             </h2>
                             <div id="collapseFAQ7" class="accordion-collapse collapse" aria-labelledby="headingFAQ7" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p>Besides a solid GPA (we hope!), you'll gain:</p>
-                                    <ul>
-                                        <li><strong>Hands-on experience</strong> in AI system development</li>
-                                        <li><strong>Modern AI knowledge base</strong> that keeps you current with industry trends</li>
-                                        <li><strong>Resume highlights</strong> that can help you secure AI-related internships or jobs</li>
-                                        <li><strong>Practical insights</strong> from industry veterans and previous students who landed AI internships</li>
-                                        <li><strong>Network connections</strong> with guest speakers including co-founders of AI companies like Dify</li>
-                                    </ul>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h6 class="text-primary">中文回答:</h6>
+                                            <p>无论是举手发言、参与讨论，还是上台做分享，都能为你赚取参与分。别害羞，大胆说！</p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h6 class="text-success">English Answer:</h6>
+                                            <p>You can earn participation points by speaking up in class, joining discussions, or giving presentations. Don't be shy - speak up!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFAQ8">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ8" aria-expanded="false" aria-controls="collapseFAQ8">
+                                    <strong>Q8:</strong> 作业晚交了怎么办？ | What is the policy for late assignment submissions?
+                                </button>
+                            </h2>
+                            <div id="collapseFAQ8" class="accordion-collapse collapse" aria-labelledby="headingFAQ8" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h6 class="text-primary">中文回答:</h6>
+                                            <p>我们有个"人性化"的ddl政策：</p>
+                                            <ul>
+                                                <li><strong>个人作业：</strong>你天生自带一次48小时的"ddl续命卡"，免任何扣分。用完之后，晚交一天扣10%。</li>
+                                                <li><strong>小组作业：</strong>由于涉及到团队协作，没有"续命卡"，晚交一天扣10%。</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h6 class="text-success">English Answer:</h6>
+                                            <p>We have a "human-friendly" deadline policy:</p>
+                                            <ul>
+                                                <li><strong>Individual Assignments:</strong> You get ONE "48-hour grace period" for the entire semester that can be used on any assignment without penalty. After using your grace period, late submissions receive a 10% deduction per day.</li>
+                                                <li><strong>Group Assignments:</strong> No grace period due to team coordination requirements. Late submissions receive a 10% deduction per day.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFAQ9">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ9" aria-expanded="false" aria-controls="collapseFAQ9">
+                                    <strong>Q9:</strong> 上完这门课，我能收获什么？ | What will I gain from this course?
+                                </button>
+                            </h2>
+                            <div id="collapseFAQ9" class="accordion-collapse collapse" aria-labelledby="headingFAQ9" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h6 class="text-primary">中文回答:</h6>
+                                            <p>除了一个还不错的GPA (希望如此！)，你还能带走：</p>
+                                            <ul>
+                                                <li>一些货真价实的AI系统开发经验</li>
+                                                <li>一套能跟上时代的AI知识体系</li>
+                                                <li>一份可能帮你敲开AI相关实习/工作大门的简历亮点</li>
+                                                <li>一些来自前辈们在AI赛道摸爬滚打的实战经验分享</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h6 class="text-success">English Answer:</h6>
+                                            <p>Besides a solid GPA (we hope!), you'll gain:</p>
+                                            <ul>
+                                                <li><strong>Hands-on experience</strong> in AI system development</li>
+                                                <li><strong>Modern AI knowledge base</strong> that keeps you current with industry trends</li>
+                                                <li><strong>Resume highlights</strong> that can help you secure AI-related internships or jobs</li>
+                                                <li><strong>Practical insights</strong> from industry veterans and previous students who landed AI internships</li>
+                                                <li><strong>Network connections</strong> with guest speakers including co-founders of AI companies like Dify</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFAQ10">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ10" aria-expanded="false" aria-controls="collapseFAQ10">
+                                    <strong>Q10:</strong> 春季学期还会有MIS3011吗？ | Will MIS3011 be offered in the spring semester?
+                                </button>
+                            </h2>
+                            <div id="collapseFAQ10" class="accordion-collapse collapse" aria-labelledby="headingFAQ10" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h6 class="text-primary">中文回答:</h6>
+                                            <p>我（大概率）春季不开这门课。学校可能会安排其他老师接手，但目前还是未知数。</p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h6 class="text-success">English Answer:</h6>
+                                            <p>I will most likely not be teaching this course in the spring. Another instructor might take it over, but that is currently uncertain.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFAQ11">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ11" aria-expanded="false" aria-controls="collapseFAQ11">
+                                    <strong>Q11:</strong> 老师，你以后还教MIS3012吗？ | Will you teach MIS3012 in the future?
+                                </button>
+                            </h2>
+                            <div id="collapseFAQ11" class="accordion-collapse collapse" aria-labelledby="headingFAQ11" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h6 class="text-primary">中文回答:</h6>
+                                            <p>今年肯定不教了，未来看缘分吧~</p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h6 class="text-success">English Answer:</h6>
+                                            <p>Not this year. Future offerings are yet to be determined.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFAQ12">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ12" aria-expanded="false" aria-controls="collapseFAQ12">
+                                    <strong>Q12:</strong> 成绩会curve吗？ | Will grades be curved?
+                                </button>
+                            </h2>
+                            <div id="collapseFAQ12" class="accordion-collapse collapse" aria-labelledby="headingFAQ12" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h6 class="text-primary">中文回答:</h6>
+                                            <p>这个问题嘛...咱们课间聊。</p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h6 class="text-success">English Answer:</h6>
+                                            <p>Let's discuss this during our break.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -772,7 +847,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="py-4 bg-dark">
+    <footer class="py-4 bg-dark text-light">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
