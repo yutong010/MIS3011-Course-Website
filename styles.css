@@ -1,0 +1,75 @@
+/* Custom styles for MIS3011 course page */
+
+/* General styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header section styling */
+.header-section {
+    background: linear-gradient(135deg, #2a2a72 0%, #00567a 100%);
+    margin-bottom: 2rem;
+}
+
+/* Image and video placeholders */
+.img-placeholder, .video-placeholder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 2px dashed rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+}
+
+.img-placeholder:hover, .video-placeholder:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.img-placeholder {
+    min-height: 200px;
+}
+
+.video-placeholder {
+    min-height: 400px;
+    width: 100%;
+}
+
+/* Chart container */
+.chart-container {
+    height: 250px;
+    width: 100%;
+}
+
+/* Card styling */
+.card {
+    margin-bottom: 1.5rem;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: var(--bs-info);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 0.5rem;
+}
+
+/* Add smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    .img-placeholder, .video-placeholder {
+        min-height: 200px;
+    }
+    
+    .chart-container {
+        height: 200px;
+    }
+}
