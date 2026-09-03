@@ -439,3 +439,15 @@ html {
         color: #1e40af;
     }
 }
+
+/* Nav item that leaves the page - reads as a departure, not another section */
+.nav-link-external i {
+    font-size: 0.7em;
+    opacity: 0.6;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link-external:hover i {
+    opacity: 1;
+    transform: translate(1px, -1px);
+}
