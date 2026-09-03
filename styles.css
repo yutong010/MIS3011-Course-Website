@@ -262,7 +262,7 @@ body {
     background: white;
 }
 
-/* Skill pillars card styling */
+/* Bordered cards: the capability cards and the contact cards */
 .border-primary {
     border-color: #3b82f6 !important;
     border-width: 2px !important;
