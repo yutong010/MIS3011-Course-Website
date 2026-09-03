@@ -378,3 +378,64 @@ html {
         border: 1px solid #e2e8f0;
     }
 }
+/* Course motto - the two clauses align on the comma, "Less" recedes and "More" steps forward */
+.course-motto {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: baseline;
+    column-gap: 0.75rem;
+    row-gap: 0.2rem;
+    font-size: 1.5rem;
+    line-height: 1.35;
+    letter-spacing: 0.005em;
+}
+
+.motto-less {
+    text-align: right;
+    font-weight: 400;
+    color: #94a3b8;
+}
+
+.motto-more {
+    text-align: left;
+    font-weight: 700;
+    color: #3b82f6;
+}
+
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+    .motto-more {
+        background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .course-motto {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        column-gap: 0;
+        row-gap: 0;
+        font-size: 1.2rem;
+    }
+
+    .motto-less,
+    .motto-more {
+        text-align: center;
+    }
+
+    .motto-more {
+        margin-bottom: 0.4rem;
+    }
+}
+
+@media print {
+    .motto-more {
+        background: none;
+        -webkit-text-fill-color: #1e40af;
+        color: #1e40af;
+    }
+}
